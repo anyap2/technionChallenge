@@ -50,15 +50,17 @@ export default function Password() {
     return (
         <div id="all">
             <div id="password-container">
+                <p>נא לכתוב את המילים שבקובץ</p>
                 <input type="text"
-                    onChange={(e) => setInputValue(e.target.value)} />
-
+                    onChange={(e) => setInputValue(e.target.value)}
+                />
                 <button class="button-36" role="button"
                     onClick={() => dataCheck()}>
                     בדיקה
                 </button>
                 <StopWatch stop={stop} />
             </div>
+            
             <button class={success ? "button-36" : "disable-button"} role="button"
                 onClick={() => continueToAudio()}>
                 המשך

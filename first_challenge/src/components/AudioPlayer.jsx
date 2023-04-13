@@ -9,7 +9,7 @@ export default function AudioPlayer() {
 
     return (
         <div id="audio-container">
-            <audio controls autoPlay
+            <audio controls autoPlay id='player'
                 src="/audio/Vladimir_edoseev_State_Academic_Large_Symphony_Orchestra_Georgijj_Vasilevich_Sviridov_-_The_Snowstorm_II_Waltz_(musmore.com).mp3">
             </audio>
             <button className='button-36'

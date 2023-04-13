@@ -41,8 +41,17 @@ audio {
     transition-duration: .1s;
 }
 
-@media (min-width: 768px) {
+#player{
+    width:80vw;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
     .button-36 {
         padding: 0 2.6rem;
+    }
+    #player{
+        width: 96vw;
     }
 }
