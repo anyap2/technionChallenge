@@ -54,14 +54,14 @@ export default function Password() {
                 <input type="text"
                     onChange={(e) => setInputValue(e.target.value)}
                 />
-                <button class="button-36" role="button"
+                <button className="button-36" role="button"
                     onClick={() => dataCheck()}>
                     בדיקה
                 </button>
                 <StopWatch stop={stop} />
             </div>
-            
-            <button class={success ? "button-36" : "disable-button"} role="button"
+
+            <button className={success ? "button-36" : "disable-button"} role="button"
                 onClick={() => continueToAudio()}>
                 המשך
             </button>
